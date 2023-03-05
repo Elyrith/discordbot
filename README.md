@@ -18,8 +18,10 @@ An outline of all steps required for this bot are:
 ---
 
 Step 1: Create your own Discord server
-Summary: Your bot will need to live in a server, and you can only add bots to Discord servers that you are an admin on. I recommend having your own private server, especially when testing things.
-Privacy Note: Discord bots can have lots of power in a server, including reading chat messages and history, and even listening to voice channels. Since Discord users can't see the code that the bot is using, they can never be sure that the bot is not tracking them. For this reason, I recommend against adding your Discord bot to any server unless _every single user_ trusts you.
+
+ Summary: Your bot will need to live in a server, and you can only add bots to Discord servers that you are an admin on. I recommend having your own private server, especially when testing things.
+
+ Privacy Note: Discord bots can have lots of power in a server, including reading chat messages and history, and even listening to voice channels. Since Discord users can't see the code that the bot is using, they can never be sure that the bot is not tracking them. For this reason, I recommend against adding your Discord bot to any server unless _every single user_ trusts you.
 
 1. In the main Discord window the list of servers you are part of is on the left side. At the bottom of that list there are buttons for "Add a Server" (plus sign icon) and "Explore Public Servers" (compass icon). Click on the "Add a Server" button.
 
