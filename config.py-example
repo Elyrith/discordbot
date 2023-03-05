@@ -1,0 +1,9 @@
+# Change this to your bot's Token. Don't confuse this with the bot's Secret..
+discordbot_token = 'TOKEN'
+discordbot_clientid = 'CLIENT_ID'
+
+# This should be your OpenAI ChatGPT token
+chatgpt_token = 'TOKEN'
+
+# This should be your token from https://thecatapi.com
+thecatapi_token = 'TOKEN'
