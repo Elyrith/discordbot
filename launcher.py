@@ -48,17 +48,17 @@ def setup_logging():
             log.removeHandler(hdlr)
 
 async def run_bot():
-#	log = logging.getLogger()
-	async with DiscordBot() as bot:
-		await bot.start()
+#    log = logging.getLogger()
+    async with DiscordBot() as bot:
+        await bot.start()
 
 @click.group(invoke_without_command=True, options_metavar='[options]')
 @click.pass_context
 def main(ctx):
-	"""Launches the bot."""
-	if ctx.invoked_subcommand is None:
-		with setup_logging():
-			asyncio.run(run_bot())
+    """Launches the bot."""
+    if ctx.invoked_subcommand is None:
+        with setup_logging():
+            asyncio.run(run_bot())
 
 if __name__ == '__main__':
-	main()
+    main()
