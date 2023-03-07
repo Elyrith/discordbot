@@ -42,8 +42,10 @@ Summary: You will need to create a Discord application, then create a Discord bo
 
  If you have 2-Factor Authentication enabled, it will ask you to pass a verification check here.
 
-1. You'll now see your bot's info, and there will be a "Copy" button. Click on that "Copy" button and store that somewhere safe.
+1. You'll now see your bot's info, and there will be a "Copy" button for the token. Click on that "Copy" button and store that somewhere safe.
 That is your bot's "token" that we'll need. (You can put that right into the config.py file now if you want.)
+
+1. Scroll down a little to the "Privileged Gateway Intents" section and enable the "Message Content Intent". Your bot will need that to read messages and respond to messages that are commands for it.
 
 1. Next, click on OAuth2 in the menu on the left. You will see a Client ID with a "Copy" button below it. Click on the "Copy" button and store that somewhere safe, too. (You can put that right into the config.py file now if you want, too.)
 

@@ -28,12 +28,8 @@ class DiscordBot(commands.AutoShardedBot):
         allowed_mentions = discord.AllowedMentions(roles=False, everyone=False, users=True)
         intents = discord.Intents(
             guilds=True,
-            members=True,
-            bans=True,
-            emojis=True,
-            voice_states=True,
+            members=False,
             messages=True,
-            reactions=True,
             message_content=True,
         )
         super().__init__(
