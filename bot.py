@@ -62,11 +62,6 @@ class DiscordBot(commands.AutoShardedBot):
             except Exception as e:
                 log.exception('Failed to load extension %s.', extension)
 
-@bot.event
-async def on_command_error(ctx, error):
-    if isinstance(error, commands.CommandNotFound):
-        await ctx.send('Sorry, that command doesn\'t exist.')
-
     @property
     def owner(self) -> discord.User:
         return self.bot_app_info.owner
