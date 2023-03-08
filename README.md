@@ -4,10 +4,11 @@ A simple Discord bot to be used for learning.
 
 This is a working, basic Discord bot.
 
-1. It pulls the configuration variables (like Discord bot client ID and token) so they don't have to be 
+1. It pulls the configuration variables (like Discord bot client ID and token) so they can be kept secret and out of the Git repository.
 1. It introduces cogs to let you make little modules that can be easily added, removed, and reloaded (when changed) without restarting the entire bot.
 1. It has a test cog you can use to make your own. Copy it, rename it, and enjoy!
 
+You will need Python installed on your machine and Pip to get get Python packages.
 
 An outline of all steps required for this bot are:
 1. Create your own server in Discord
@@ -58,6 +59,8 @@ That is your bot's "token" that we'll need. (You can put that right into the con
 Step 3: Run this code to start the bot
 
 1. Clone this repository somewhere with internet access.
+
+1. Install the package requirements by running `pip install -r requirements.txt`
 
 1. Copy the config.py-example file and name the new file simply "config.py".
 
